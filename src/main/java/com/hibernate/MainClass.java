@@ -2,6 +2,7 @@ package com.hibernate;
 
 public class MainClass {
     public static void main(String[] args) {
+
         ProductDao productDao = new ProductDao();
         Product product1 = productDao.productFindById(1L);
         product1.setTitle("milk");

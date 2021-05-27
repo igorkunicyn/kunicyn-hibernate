@@ -18,7 +18,6 @@ public class ProductDao {
         session = null;
 
     }
-//    Session session = null;
 
     public void saveOrUpdate(Product product) {
         session = sessionFactory.getCurrentSession();
